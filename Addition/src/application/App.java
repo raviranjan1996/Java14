@@ -25,9 +25,7 @@ public class App {
 			else {
 				System.out.println("No. of Brackets : "  + open);
 			}
-		
-		
 	}
-}	
+ }	
 
 
