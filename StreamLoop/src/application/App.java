@@ -1,5 +1,6 @@
 package application;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class App {
@@ -10,5 +11,12 @@ public class App {
 			System.out.println("Count : > " + count[0]++);
 			
 		});
+		
+		String[] str = {"ravi","ranjan"};
+		Arrays.stream(str).forEach(string ->{
+			
+			System.out.println(string);
+		});
+		
 	}
 }
