@@ -1,11 +1,11 @@
 package application;
 
 public class GetterAndSetterClass {
-	private String name;
+	private String names;
 	private int age; 						//this can be still accessed in th main class so for preventing this we use public private keyword
 
 	public void setName(String name) {
-		this.name = name;   //this. is refer to the instance variable
+		this.names = name;   //this. is refer to the instance variable
 	}
 
    public void setAge(int age) {
@@ -13,7 +13,7 @@ public class GetterAndSetterClass {
 	}
 	
 	public String getName() {
-		return name;
+		return names;
 	}
 	public int getAge() {
 		return age;
