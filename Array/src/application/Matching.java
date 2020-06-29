@@ -4,7 +4,7 @@ public class Matching {
 
 	public static void main(String[] args) {
 
-		int[] a = { 1, 2, 3, 4 };
+		int[] a = { 1, 2, 3, 4};
 		int[] b = { 1, 2, 3 ,4 };
 
 		int count=0;
@@ -14,7 +14,12 @@ public class Matching {
 				if (a[i] == b[j] && a.length==b.length) {
 					count++;
 					break;
+					
 			}
+				if(a.length >b.length || a.length <b.length) {
+					break;
+					
+				}
 		}
 			System.out.println(count);
 		}
