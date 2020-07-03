@@ -13,7 +13,7 @@ public class MissingNumber {
 		int sumNumber;
 		int sum=0;
 		System.out.println("Enter the number in the arrays:> ");
-		IntStream.range(1, number.length).forEach(i -> {
+		IntStream.range(0, number.length).forEach(i -> {
 			number[i] = scanner.nextInt();
 		});
 		for (int numbers : number) {
