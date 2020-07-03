@@ -35,3 +35,7 @@ public class Cat {
  * instances of the class. You need to make it static so it's shared between all
  * objects and you can access it using the class
  */
+
+
+//to make it associated with the class not with the instance(object) of th class we need a keyword static 
+
