@@ -18,4 +18,8 @@ public class GetterAndSetterClass {
 	public int getAge() {
 		return age;
 	}
+	
+	public String toString() {
+		return "[Name = " + names +" , " + age + "]";
+	}
 }

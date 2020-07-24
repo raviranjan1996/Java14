@@ -8,8 +8,8 @@ public class GetterSetter {
 
 		getterSetter.setName("ravi");
 		getterSetter.setAge(24);
-		System.out.println(getterSetter.getName());
-		System.out.println(getterSetter.getAge());
+		System.out.println(getterSetter);
+		System.out.println(getterSetter);
 	
 
 		// getter and setter method is used to not to access the instance variable
