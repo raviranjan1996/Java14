@@ -20,6 +20,7 @@ public class MultidimensionArrays {
 		System.out.println("----------------------------");
 		for (int i = 0; i < texts.length; i++) {
 			String[] subarrays = texts[i];
+			System.out.println(subarrays);
 			for (int j = 0; j < subarrays.length; j++) {
 				System.out.printf("%s\t", subarrays[j]);
 			}

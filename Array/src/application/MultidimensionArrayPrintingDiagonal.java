@@ -9,6 +9,17 @@ public class MultidimensionArrayPrintingDiagonal {
 
 		int[][] number = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
+		
+		for(int[] subArrya:number) {
+			for(int arrays:subArrya) {
+				System.out.printf("%d\t" ,arrays);
+			}
+			System.out.println();
+		}
+		
+		System.out.println("##############");
+		
+		
 		Arrays.stream(number).forEach(i -> {
 			Arrays.stream(i).forEach(j -> {
 
