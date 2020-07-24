@@ -23,8 +23,15 @@ public class App {
 		String options = "Select an option: \n\t1. Add an entry \n\t2. View the database \n\t3. Exit";
 		System.out.println(options);
 		
+		String strs = "ravi";
+		String st = "patel ravi ranjan aptel";
+		
+		String conccate = strs.concat(" " + st);
+		System.out.println(conccate);
 		
 		
+		
+	
 		
 		
 		
