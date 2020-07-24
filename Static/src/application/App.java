@@ -1,5 +1,8 @@
 package application;
 
+import application.Cat.People;
+import application.Cat.People.Printer;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -14,11 +17,22 @@ public class App {
 
 		System.out.println(Cat.FOOD);
 		
+		Object o;
+		o = new People().new Printer();
+		
+		((Cat.People.Printer)o).running();
+			
+		People people = new People();
+		
+		o = people.new Printer();
+		
+		People.Printer pp1 = (People.Printer)o;
+		pp1.running();
 
 		/*
 		 * So what we've done is by declaring this variable static we've made sure that
 		 * there is only one copy of this variable. It exists. Show between all members
-		 * of the class and it's associated with the class. You need to make it final to
+		 * of the class and it's associated with the class. we
 		 * make it associated with the class and not instances of the class.
 		 * 
 		 * 

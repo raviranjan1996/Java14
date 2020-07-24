@@ -11,7 +11,17 @@ public class Cat {
 		height=45.34;
 		System.out.println("Run");
 		System.out.println(height);
+		
 	}
+	
+	public static class People{
+		class Printer{
+			public void running() {
+				System.out.println("running....");
+			}
+		}
+	}
+	
 	public Cat(String name) {
 		this.name = name;
 		id =count;
