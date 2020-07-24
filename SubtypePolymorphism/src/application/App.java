@@ -8,6 +8,7 @@ public class App {
 		for(Cat cat:cats) {
 			cat.vocalized();
 			cat.hunting();
+			System.out.println(cat);
 		}
 	}
 
