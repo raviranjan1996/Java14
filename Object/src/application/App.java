@@ -10,7 +10,7 @@ public class App {
 		
 		
 		System.out.println(Cat.getCat());
-		
+		System.out.println(App.getAnimal());
 		
 		
 	}
