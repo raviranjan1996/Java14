@@ -27,6 +27,8 @@ public class Game {
 			System.out.print("Enter the choice->\n\t1.Rock\n\t2.Paper\n\t3.Scissor\n\t-> ");
 			int chooseOption = scanner.nextInt();
 			GameObject randomObjects1 = gameObject[chooseOption - 1];
+			
+				
 			System.out.println(randomObjects1 + "<---------->" + randomObjects);
 			int comparissions = randomObjects1.compareTo(randomObjects);
 			System.out.println(status[comparissions + 1]);
