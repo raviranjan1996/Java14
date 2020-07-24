@@ -11,9 +11,12 @@ public class App {
 							// cast it here, by doing this we can also access the method of animal to the cat
 		System.out.println(a2);
 
+		
+		
 		a2.jump();
 		a2.speak();
 	
 	}
 
 }
+	
