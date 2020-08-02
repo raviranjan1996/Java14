@@ -85,6 +85,10 @@ public class ComparableExample {
 		person.add(new PersonCompare("patel", 24 ,3));
 		person.add(new PersonCompare("dabloo", 10 ,4));
 		
+		Collections.sort(person);
+		person.forEach(e->System.out.println(e));
+		
+		System.out.println("==============");
 		Collections.sort(person , new PersonComaparator());
 		System.out.println("\n\n");
 		person.forEach(e->System.out.println(e));

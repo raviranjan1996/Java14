@@ -8,7 +8,7 @@ public class App {
 			System.out.println("hello " +count);
 
 			if (count == 5) {
-				break;
+				break;  //will leave out the first loop.
 			}
 			count++;
 		}
