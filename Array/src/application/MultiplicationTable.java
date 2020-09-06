@@ -21,8 +21,8 @@ public class MultiplicationTable {
 			System.out.println();
 		});
 
-		int[] number = { 1, 2, 3, 4, 6, 7, 8 };
-		IntStream.range(0, number.length).forEach(i -> {
+		int[] number = { 1, 2, 3, 4, 6, 8 };
+		IntStream.range(0, number.length-1).forEach(i -> {
 			try {
 				if ((number[i] + 1) == number[i + 1]) {
 				} else {

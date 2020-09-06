@@ -14,8 +14,7 @@ public class Lexicography {
         for(int i =0 ; i < ch.length-(k-1) ; i++) {
            
                 list.add(s.substring(i, i+k));
-                
-            
+               
            
         }
         list.forEach(e-> System.out.println(e));

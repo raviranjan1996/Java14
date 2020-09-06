@@ -39,19 +39,20 @@ public class Rota {
 		
 		for(int i =0 ; i < people.size() ; i++) {
 			
-			Person person = people.get(getPersonListPosition++);
+			Person person1 = people.get(getPersonListPosition++);
 			
 			if(getPersonListPosition == people.size()) {
 				getPersonListPosition=0;
 			}
 			
-			if(person.isHoliday()) {
+			if(person1.isHoliday()) {
 				continue;
 			}
 			
-			Set<Skills> skill = person.getSkill(); 
+			Set<Skills> skill = person1.getSkill(); 
+			
 			vitalset.addAll(skill);
-			peoples.add(person);
+			peoples.add(person1);
 			
 			if(vitalset.isComplete()) {
 				break;

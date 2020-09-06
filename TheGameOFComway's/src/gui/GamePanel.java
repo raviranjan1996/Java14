@@ -47,7 +47,7 @@ public class GamePanel extends JPanel {
 				repaint(); // calls the paint method as soon as possible
 			}
 		});
-		Executors.newScheduledThreadPool(1).scheduleAtFixedRate(()-> next(),500, 500, TimeUnit.MILLISECONDS);
+		//Executors.newScheduledThreadPool(1).scheduleAtFixedRate(()-> next(),500, 500, TimeUnit.MILLISECONDS);
 		
 	}
 

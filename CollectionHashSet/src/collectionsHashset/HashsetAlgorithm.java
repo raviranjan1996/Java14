@@ -1,5 +1,6 @@
 package collectionsHashset;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -52,7 +53,7 @@ public class HashsetAlgorithm {
 		
 		
 		addCreature.forEach(e-> System.out.println(e));
-
+		
 	}
 
 }

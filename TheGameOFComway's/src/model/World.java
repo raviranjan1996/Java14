@@ -48,7 +48,7 @@ public class World {
 	}
 
 	public void clear() {
-		for (int row = 0; row < rows; row++) {
+		for (int row = 0; row <rows; row++) {
 			Arrays.fill(grid[row], false);
 		}
 

@@ -1,5 +1,6 @@
 package application;
 
+import java.util.Collections;
 import java.util.LinkedHashSet;
 
 public class Linkedhashsetintro {
@@ -13,6 +14,9 @@ public class Linkedhashsetintro {
 		set.add("cherry");
 		set.add("apple");
 		set.add("mango");
+		
+		
+		
 		for(var fruit:set) {
 			System.out.println(fruit);
 			

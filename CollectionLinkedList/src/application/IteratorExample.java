@@ -13,6 +13,7 @@ public class IteratorExample {
 			Integer number = it.next();   //return the current elements and sending this to the next reference
 			
 			System.out.println(number);
+			
 				
 		}
 		

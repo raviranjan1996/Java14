@@ -18,10 +18,15 @@ public class RotaExample {
 	public static void main(String[] args) {
 
 		List<Person> person = loadData();
-		Rota rota = new Rota();
 		
-		rota.add(person);
-		System.out.println(rota);
+		person.forEach(e->System.out.println(e));
+		
+		System.out.println("================================================================================");
+		  Rota rota = new Rota();
+		  
+		  rota.add(person);
+		  System.out.println(rota);
+		 
 
 	}
 

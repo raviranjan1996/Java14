@@ -17,6 +17,8 @@ public class HashsetIntro {
 			System.out.println(string.size());
 		}
 		
+		string.forEach(e->System.out.print(e + " "));
+		
 
 	}
 
